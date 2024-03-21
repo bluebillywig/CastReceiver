@@ -263,4 +263,8 @@ castReceiverOptions.supportedCommands =
  */
 // castReceiverOptions.queue = new CastQueue();
 
+castReceiverOptions.shakaVersion = "4.3.4"; // default: "4.3.4"
+castReceiverOptions.useShakaForHls = true; // default: false
+castReceiverOptions.useLegacyDashSupport = false; // default: false
+
 context.start(castReceiverOptions);
